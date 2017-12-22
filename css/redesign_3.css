@@ -1,0 +1,380 @@
+/* All Typography Assets----------------*/
+
+ @import url("https://use.typekit.net/myr8dcc.css");
+
+
+
+/*------------------------------------ */
+
+
+/*All CSS---------------------- */
+html,body{ 
+
+	width:100%;
+	height:2000px;
+	margin:0;
+
+}
+
+.main {
+
+	width:100%;
+	
+	
+}
+
+#small_logo {
+
+	margin-top:40px;
+	position: relative;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.menu-bar {
+
+	width:1755px;
+	position:relative;
+	left:50%;
+	margin-left:-875px;
+
+}
+
+.topnav{
+
+	list-style-type:none;
+	float:left;
+	text-align:center;
+	width:350px;
+	border-right:1px solid black;
+	height:30px;
+	line-height:30px;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 400; 
+	font-size: 18px;
+	margin-bottom:20px;
+	margin-top: 20px;
+}
+
+a {
+ 
+ text-decoration: none;
+ color:black;
+
+}
+
+a:hover {
+
+	color:black;
+	background-color:transparent;
+	text-decoration: underline;
+}
+
+.topnav:last-child {
+
+	border-right:0px;
+
+}
+
+#carrera-models-text {
+
+	position: relative;
+	top:-275px;
+	left:5%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 55px;
+	color:white;
+
+}
+
+#price {
+
+	position: relative;
+	top:-260px;
+	left:5%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 21px;
+	color:white;
+
+}
+
+#msrp {
+
+	position: relative;
+	top:-250px;
+	left:5%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 16px;
+	color:white;
+
+}
+
+#carrera-models {
+
+	position: relative;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	padding-top:30px;
+
+}
+
+.clear {
+
+	clear:both;
+
+}
+
+#blue-carrera {
+
+	/* float:left;
+	margin-left: 100px; */
+
+	position: relative;
+	top:50px;
+	left:15%; 
+}
+
+.blue-carrera-text {
+
+	position: absolute;
+	top:20px;
+	left:32%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 55px;
+	color:black;
+
+}
+
+.price-text {
+
+	position: absolute;
+	top:72px;
+	left:1%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 24px;
+	color:black;
+
+}
+
+#hp {
+
+	position:absolute;
+	top:180px;
+	left:32.2%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 35px;
+	color:black;
+	border-right:1px solid black;
+	width:120px;
+	line-height: 75px;
+
+}
+
+#acceleration {
+
+	position:absolute;
+	top:180px;
+	left:40%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 35px;
+	color:black;
+	border-right:1px solid black;
+	width:130px;
+	line-height: 75px;
+
+}
+
+#drive-train {
+
+	position:absolute;
+	top:180px;
+	left:48%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 35px;
+	color:black;
+	border-right:1px solid black;
+	width:270px;
+	line-height: 75px;
+
+}
+
+
+#horsepower {
+
+	position:absolute;
+	top:240px;
+	left:32.3%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 16px;
+	color:black;
+
+}
+
+#zero60 {
+
+	position:absolute;
+	top:240px;
+	left:40%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 16px;
+	color:black;
+
+}
+
+#drive {
+
+	position:absolute;
+	top:240px;
+	left:48%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 16px;
+	color:black;
+
+}
+
+
+#silver-carrera {
+
+	position: relative;
+	top:50px;
+	left:55%;
+
+}
+
+#silver-carrera-text{
+
+	position: absolute;
+	top:50px;
+	left:-26%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 55px;
+	color:black;
+
+}
+
+
+#silver-carrera-price {
+
+	position: absolute;
+	top:72px;
+	left:50%;
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 24px;
+	color:black;
+
+}
+
+
+.textandcolor{
+
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 35px;
+	color:black;
+}
+
+#hp-2 {
+
+	position:absolute;
+	top:200px;
+	left:-40%;
+	border-right:1px solid black;
+	width:120px;
+	line-height: 75px;
+
+}
+
+#acceleration-2 {
+
+	position:absolute;
+	top:200px;
+	left:-32.2%;
+	border-right:1px solid black;
+	width:130px;
+	line-height: 75px;
+
+}
+
+#drive-train-2 {
+
+	position:absolute;
+	top:200px;
+	left:-23%;
+	border-right:1px solid black;
+	width:270px;
+	line-height: 75px;
+
+}
+
+
+.textandcolor-2{
+
+	font-family: "nimbus-sans", sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+	font-size: 16px;
+	color:black;
+
+}
+
+#horsepower-2 {
+
+	position:absolute;
+	top:262px;
+	left:-32.2%;
+	
+}
+
+#zero60-2{
+
+	position:absolute;
+	top:262px;
+	left:-22.9%;
+	
+
+}
+
+#drive-2 {
+
+	position:absolute;
+	top:262px;
+	left:-40%;
+	
+}
+
+
+
+/*------------------------------------ */
